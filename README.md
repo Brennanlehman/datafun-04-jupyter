@@ -27,6 +27,26 @@ ni requirements.txt
 ni gitignore
 ```
 
+## How to Install and Run the Project
+## Add dependencies
+
+```shell
+
+py -m pip install jupyterlab
+py -m pip install numpy
+py -m pip install pandas
+py -m pip install matplotlib 
+py -m pip install seaborn
+py -m pip install scipy
+```
+
+## Freeze dependencies
+
+```shell
+
+py -m pip freeze > requirements.txt
+```
+
 ## Git add and commit 
 
 ```shell
